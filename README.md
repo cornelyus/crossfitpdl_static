@@ -1,1 +1,0 @@
-# crossfitpdl_static
