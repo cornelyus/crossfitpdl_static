@@ -4,11 +4,19 @@
 /* an adaptation of http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/ */
 /*https://medium.com/@flobin/how-to-set-up-a-contact-form-on-a-static-website-62c2267bacfb*/
 
-#contactform, .form {
+#contactform {
     /*margin-top: 2rem;*/
     float: left;
     width: 50%;
 }
+
+@media only screen and (max-width: 490px) {
+    #contactform {
+        float: none;
+        width: 100%;
+    }
+}
+
 .field {
     padding-left: 0;
     border: none;
