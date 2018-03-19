@@ -24,6 +24,7 @@
                     <link href="sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" rel="stylesheet" type="text/css"/>
                     <link href="sites/default/files/css/css_L_sKsv_YAZJekNhS5ZG7ZkXHCDcUzCzAb8q7It9wNlk.css" media="all" rel="stylesheet" type="text/css"/>
                     <link href="sites/default/files/css/css_MnXiytJtb186Ydycnpwpw34cuUsHaKc80ey5LiQXhSY.css" media="all" rel="stylesheet" type="text/css"/>
+                    <link href="sites/default/files/css/contact-form.css" media="all" rel="stylesheet" type="text/css"/>
                     <style>
                         #back-top{right:40px;}#back-top span#button{background-color:#CCCCCC;}#back-top span#button:hover{opacity:1;filter:alpha(opacity = 1);background-color:#27B6C0;}span#link{display :none;}
                     </style>
@@ -41,7 +42,7 @@
                     <script src="sites/default/files/js/js_muTdZpRiwQVYkcyta8xwHvUSxnaJg0-NrqqJAqKti_U.js">
                     </script>
                     <script>
-                        (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-61586645-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+                        (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-61586645-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
                     </script>
                     <script src="sites/default/files/js/js_a_XWH2S1EQaU85ypMDyQGiUfzPFez1IOZKxHnhGkv3E.js">
                     </script>
@@ -296,8 +297,13 @@
                                         </a>
                                         <br/>
                                         F:
-                                        <a href="https://www.facebook.com/CrossFitPDL" target="_blank">
-                                            facebook.com/CrossFitPDL
+                                        <a href="https://www.facebook.com/crossfitpdl" target="_blank">
+                                            facebook.com/crossfitpdl
+                                        </a>
+                                        <br/>
+                                        I:
+                                        <a href="https://www.instagram.com/crossfitpdl/" target="_blank">
+                                            instagram.com/crossfitpdl
                                         </a>
                                     </p>
                                     <div style="width:90%; font-size:90%;">
@@ -322,6 +328,28 @@
                                         </a>
                                     </div>
                                 </div>
+                                <form class="form" id="contactform" action="https://formspree.io/info@crossfitpdl.com" method="POST">
+                                <p style="margin-bottom:0">Por favor utilize o formulário abaixo para nos contatar.</p>
+                                 <fieldset class="field">
+                                 <input class="input" type="text" name="name" placeholder="" id="name" required>
+                                 <label class="label" for="name"><span class="label-content">Nome</span></label>
+                                 </fieldset>
+                                 <fieldset class="field">
+                                 <input class="input" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
+                                 <label class="label" for="_replyto"><span class="label-content">Email</span></label>
+                                 </fieldset>
+                                 <fieldset class="field">
+                                 <input class="input" type="text" name="subject" placeholder="" id="subject" required>
+                                 <label class="label" for="name"><span class="label-content">Assunto</span></label>
+                                 </fieldset>
+                                 <fieldset class="field">
+                                 <textarea class="input" name="message" rows="5" placeholder="" id="message" required></textarea>
+                                 <label class="label" for="message"><span class="label-content">Mensagem</span></label>
+                                 </fieldset>
+                                 <input class="hidden" type="text" name="_gotcha" style="display:none">
+                                 <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
+                                 <input class="button submit" type="submit" value="Enviar">
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -340,6 +368,10 @@
                                 <i class="fa fa-facebook-square fa-2x">
                                 </i>
                             </a>
+                            <a href="https://www.instagram.com/crossfitpdl" target="_blank">
+                                <i class="fa fa-instagram fa-2x">
+                                </i>
+                            </a>
                             <a href="https://plus.google.com/u/0/101096945683943579109/posts" target="_blank">
                                 <i class="fa fa-google-plus-square fa-2x">
                                 </i>
@@ -355,5 +387,7 @@
         </div>
         <script src="sites/default/files/js/js_h5pUc2x9Uh8Pl1QqK1Xj-8G295EapUWRnbPNEp5xuvA.js">
         </script>
+        <script src="sites/default/files/js/classie.js"></script>
+        <script src="sites/default/files/js/contact-form.js"></script>
     </body>
 </html>
