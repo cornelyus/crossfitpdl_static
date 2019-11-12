@@ -1445,7 +1445,7 @@ tr.selected td {
 }
 #header {
     /*background: url(../images/cover_azoresbox_blue.jpg) 55%;*/
-    background-color: grey;
+    background-color: #1a1a1a;
     background-size: cover;
     min-height: 400px;
     background-attachment: fixed;
