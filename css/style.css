@@ -1621,11 +1621,13 @@ ul.menu li a:hover {
     clear: both;
 }
 h2.block-title {
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 1em;
-    border-bottom: 1px solid #27b6c0;
-    letter-spacing: 3px;
-    font-size: 40px;
+    border-bottom: 2px solid #1a1a1a;
+    letter-spacing: -0.02em;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .blue {
     color: #27b6c0;
@@ -1802,4 +1804,8 @@ span#link {
 #feder img {
     max-width: 100%;
     max-height: 50px;
+}
+
+.crossfitblack {
+    color: #1a1a1a;
 }
