@@ -71,9 +71,9 @@ body {
     background-image: url(../images/up-arrow.png);
     opacity: 0.8;
     filter: alpha(opacity=80);
-    -webkit-border-radius: 8px;
+/*    -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
-    border-radius: 8px;
+    border-radius: 8px;*/
     -webkit-transition: 1s;
     -moz-transition: 1s;
     transition: 1s;
@@ -1496,7 +1496,7 @@ ul.menu li a {
     text-decoration: none;
     cursor: pointer;
     font-size: 16px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     display: block;
     padding: 8px 18px;
     border: 2px solid #D1DCE5;
@@ -1508,6 +1508,8 @@ ul.menu li a {
     transition: all 0.2s;
     color: #F7EEE6!important;
     border: 2px solid #F7EEE6;
+    font-family: 'Roboto';
+    text-transform: uppercase;
 }
 ul.menu li a:hover {
     opacity: 0.5;
@@ -1519,6 +1521,8 @@ ul.menu li a:hover {
 .stickynav-active {
     background: rgba(0, 0, 0, 0.6);
     background: rgba(89, 89, 92, 0.8);
+    background: #1a1a1a;
+    opacity: 0.9;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -1527,11 +1531,11 @@ ul.menu li a:hover {
     left: 0;
 }
 .stickynav-active .menu {
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    transform: scale(0.8);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
     -webkit-transition: transform 1s ease-in;
     -moz-transition: transform 1s ease-in;
     -o-transition: transform 1s ease-in;
@@ -1632,10 +1636,6 @@ h2.block-title {
 .blue {
     color: #27b6c0;
 }
-#block-views-info-block-1 .views-row-1 {
-    padding: 0 2em;
-    font-style: italic;
-}
 #block-views-info-block-1 .views-row-2 {
     background-color: #27b6c0;
     margin: 0px 2em !important;
@@ -1705,8 +1705,8 @@ h2.block-title {
     background-color: #27b6c0;
 }
 #footer {
-    background-color: #27B6C0;
-    opacity: 0.5;
+    background-color: #1a1a1a;
+    opacity: 0.9;
     margin-top: 2em;
     color: #D1DCE5;
     font-size: 13px;
@@ -1714,7 +1714,8 @@ h2.block-title {
     padding: 1em;
 }
 #footer i {
-    color: #D1DCE5;
+    /*color: #D1DCE5;*/
+    color: #cbcbcb;
     margin-left: 10px;
 }
 #footer i:hover {
