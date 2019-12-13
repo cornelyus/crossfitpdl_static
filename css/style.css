@@ -1901,6 +1901,20 @@ span#link {
   color: white;
 }
 
-.column img{
+.galeria_fotos .column img{
   margin-top: 20px;
+}
+
+/* Juntate */
+
+.juntate {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: .75rem;
+}
+
+.juntate span {
+    font-size: 125%;
+    font-weight: 900;
 }
