@@ -139,11 +139,13 @@ textarea.input {
 
 .button, input[type=submit] {
     -webkit-appearance: none;
-    background-color: #D1DCE5;
+    /*background-color: #D1DCE5;*/
+    background-color: #cccccc;
     width: 100%;
     height: 48px;
     border: medium none;
     transition: background-color 0.3s ease 0s;
+    border-radius: 0;
 
 }
 .button:hover, .button:focus, .button:active {
